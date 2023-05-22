@@ -7,8 +7,11 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-# Run Black code formatter
-black .
+# # Run Ruff linter
+# ruff .
 
-# Run Ruff linter
-ruff .
+# # Run Black code formatter
+# black .
+
+# # Validate Poetry Config
+# poetry check
