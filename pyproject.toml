@@ -1,0 +1,32 @@
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.py$'
+exclude = '''
+    /(\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|\.svn|_build|buck-out|build|dist)/
+'''
+
+[tool.poetry]
+name = "shoe-closet-backend-python"
+version = "0.1.0"
+description = "Shoe Closet Backend"
+authors = ["ScottHannan <42324183+ScottHannan@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "shoe_closet_backend_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+black = "^23.3.0"
+pre-commit = "^3.3.2"
+pytest = "^7.3.1"
+sqlalchemy = "^2.0.15"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.269"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

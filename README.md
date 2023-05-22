@@ -43,3 +43,11 @@ To remove a dependency from your project using Poetry, follow these steps:
 2. Run the following command to remove a dependency from your project: `poetry remove package_name`
 3. Update your project's virtual environment by running: `poetry install`
 
+## Local Development
+
+Run `poetry shell` to start your virtual environment
+
+Run `black .` to format your files at any time and `ruff .` to see issues in the code. 
+
+`black` and `ruff` are run as a pre-commit hook. If rough returns fixes run `ruff . --fix`
+
