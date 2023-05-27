@@ -10,6 +10,8 @@ Poetry is a powerful dependency management tool for Python projects. It simplifi
 
 Run `poetry init`
 
+## PREREQUISITES: Python 3.11
+
 ### Activate Virtual Environment
 
 Run `poetry shell` and we use `poetry shell no-dev` in production (if we get there lol)
@@ -46,6 +48,8 @@ To remove a dependency from your project using Poetry, follow these steps:
 ## Local Development
 
 Run `poetry shell` to start your virtual environment.
+
+Run `poetry init` to download the dependencies.
 
 Run `black .` to format your files at any time and `ruff .` to see issues in the code. 
 
