@@ -45,7 +45,7 @@ To remove a dependency from your project using Poetry, follow these steps:
 
 ## Local Development
 
-Run `poetry shell` to start your virtual environment
+Run `poetry shell` to start your virtual environment.
 
 Run `black .` to format your files at any time and `ruff .` to see issues in the code. 
 
