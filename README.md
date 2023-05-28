@@ -49,7 +49,7 @@ To remove a dependency from your project using Poetry, follow these steps:
 
 Run `poetry shell` to start your virtual environment.
 
-Run `poetry init` to download the dependencies.
+Run `poetry install` to download the dependencies.
 
 Run `black .` to format your files at any time and `ruff .` to see issues in the code. 
 
